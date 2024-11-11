@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{A59273A7-FF6C-44EE-847B-63850A503220}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotificationSystem.API", "API\NotificationSystem.API\NotificationSystem.API.csproj", "{E9AEBC9B-260F-4926-B088-C7483D868CDC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{C12A7ACB-291A-4501-9868-D06E9C548A80}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotificationSystem.Application", "Application\NotificationSystem.Application\NotificationSystem.Application.csproj", "{A17A34AB-BE18-4EFC-A08D-194D890690D9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{8653B45A-F684-45F0-BF27-E56DED84B290}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotificationSystem.Domain", "Domain\NotificationSystem.Domain\NotificationSystem.Domain.csproj", "{026E52A9-7432-495D-8600-7AA95C95148A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{2B81E044-BE72-49CA-A17E-F621715E15B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotificationSystem.Infrastructure", "Infrastructure\NotificationSystem.Infrastructure\NotificationSystem.Infrastructure.csproj", "{DD1F9A88-F9B2-4FD1-8B18-3643E1B94A6F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{74689EE9-9625-4D66-8149-BEE7F54140A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotificationSystem.Tests", "Tests\NotificationSystem.Tests\NotificationSystem.Tests.csproj", "{7D4548E4-DBD7-49C2-9D8A-8239AB2E4C7A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E9AEBC9B-260F-4926-B088-C7483D868CDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9AEBC9B-260F-4926-B088-C7483D868CDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9AEBC9B-260F-4926-B088-C7483D868CDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9AEBC9B-260F-4926-B088-C7483D868CDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A17A34AB-BE18-4EFC-A08D-194D890690D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A17A34AB-BE18-4EFC-A08D-194D890690D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A17A34AB-BE18-4EFC-A08D-194D890690D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A17A34AB-BE18-4EFC-A08D-194D890690D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{026E52A9-7432-495D-8600-7AA95C95148A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{026E52A9-7432-495D-8600-7AA95C95148A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{026E52A9-7432-495D-8600-7AA95C95148A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{026E52A9-7432-495D-8600-7AA95C95148A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD1F9A88-F9B2-4FD1-8B18-3643E1B94A6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD1F9A88-F9B2-4FD1-8B18-3643E1B94A6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD1F9A88-F9B2-4FD1-8B18-3643E1B94A6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD1F9A88-F9B2-4FD1-8B18-3643E1B94A6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D4548E4-DBD7-49C2-9D8A-8239AB2E4C7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D4548E4-DBD7-49C2-9D8A-8239AB2E4C7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D4548E4-DBD7-49C2-9D8A-8239AB2E4C7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D4548E4-DBD7-49C2-9D8A-8239AB2E4C7A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E9AEBC9B-260F-4926-B088-C7483D868CDC} = {A59273A7-FF6C-44EE-847B-63850A503220}
+		{A17A34AB-BE18-4EFC-A08D-194D890690D9} = {C12A7ACB-291A-4501-9868-D06E9C548A80}
+		{026E52A9-7432-495D-8600-7AA95C95148A} = {8653B45A-F684-45F0-BF27-E56DED84B290}
+		{DD1F9A88-F9B2-4FD1-8B18-3643E1B94A6F} = {2B81E044-BE72-49CA-A17E-F621715E15B8}
+		{7D4548E4-DBD7-49C2-9D8A-8239AB2E4C7A} = {74689EE9-9625-4D66-8149-BEE7F54140A0}
+	EndGlobalSection
+EndGlobal
